@@ -22,3 +22,30 @@ The payroll system handles different employee types—HourlyEmployee, SalariedEm
 Lab3.2 Testing Payroll System
 
 It is a test program to demonstrate the functionality of the employee payroll system. The test program should instantiate objects for each employee type: HourlyEmployee, SalariedEmployee, and ExecutiveEmployee, and set their attributes, including employee ID, name, designation, hourly rate, hours worked, monthly salary, and bonus percentage.The program  displays detailed information for each employee, including their calculated weekly salary, annual earnings, bonuses, and the total payroll amount. It utilizes method overriding and the super keyword appropriately to invoke base class functionalities. Furthermore, the test program reflect robust data validation, ensuring that all attributes conform to predefined constraints, thereby showcasing the complete capabilities of the payroll system.
+
+Lab 4 House Robbing 
+
+House-robbing problem using an abstract class and its derived implementation.
+
+Abstract Class (Robber):
+
+Defines the structure for solving various house-robbing scenarios:
+RowHouses: Handles robbing houses in a row without triggering alarms from adjacent houses.
+RoundHouses: Handles robbing houses arranged in a circle, considering adjacency.
+SquareHouse: Similar logic for square houses to maximize the robbery amount.
+MultiHouseBuilding: Handles multiple types of houses with constraints.
+Includes concrete methods like:
+RobbingClass: Prints "MScAI&ML".
+MachineLearning: Prints "I love Machine Learning."
+
+Class JAVAProfessionalRobber:
+
+Implements the logic for the abstract methods using simple iterations.
+Calculates the maximum robbery amount for each scenario, respecting adjacency constraints.
+
+Main Class (Rob):
+
+Demonstrates the use of the implemented methods with hard-coded input arrays for row, round, square, and multi-house buildings.
+Outputs:
+Maximum amounts that can be robbed in each scenario.
+Prints additional messages from RobbingClass and MachineLearning.
