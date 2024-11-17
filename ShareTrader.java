@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 class ShareTrader {
 
-    // Static variable to store the maximum profit
+    
     static int maxProfit;
 
     // Static method to find the maximum profit with at most 2 transactions

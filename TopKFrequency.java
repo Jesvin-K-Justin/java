@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TopKFrequency {
 
-    // Static array to store the input numbers
+    
     static int[] nums;
 
     // Static method to find the top K frequent numbers
