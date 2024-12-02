@@ -133,7 +133,7 @@ class Reviewer extends Thread
     }
 }
 
-public class coffee
+public class Coffee
 {
     public static void main(String[] args) 
     {
